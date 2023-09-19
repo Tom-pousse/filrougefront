@@ -1,0 +1,43 @@
+.padding {
+  padding-top: 2rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  padding-bottom: 6rem;
+}
+::placeholder {
+  color: hsl(0, 0%, 30%);
+  text-indent: 5rem;
+  font-size: medium;
+}
+input {
+  border-radius: 15px;
+  background-color: hsl(180, 10%, 85%);
+}
+button {
+  margin-top: 2rem;
+  border-radius: 2rem;
+  width: 100%;
+  height: 3rem;
+  background-color: #225777;
+  color: white;
+  border: none;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.espacement {
+  margin-top: 0.5rem;
+}
+.padding-top {
+  padding-top: 1rem;
+}
+p {
+  display: flex;
+
+  justify-content: center;
+  /* background-color: red; */
+  padding: 0 15% 0 15%;
+}

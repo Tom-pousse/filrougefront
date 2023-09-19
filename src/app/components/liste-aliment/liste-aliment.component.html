@@ -1,0 +1,39 @@
+<table>
+  <thead>
+    <tr>
+      <th colspan="6">Id</th>
+      <th colspan="6">Nom</th>
+      <th colspan="6">Age introduction</th>
+      <th colspan="6">Catégorie</th>
+      <th colspan="6">Saisons</th>
+      <th colspan="6">Restrictions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <td>
+      <li *ngFor="let aliments of aliments">{{ aliments.id }}</li>
+    </td>
+    <th colspan="6">Nom</th>
+    <td>
+      <li *ngFor="let aliments of aliments">{{ aliments.libelle }}</li>
+    </td>
+    <th colspan="6">Age introduction</th>
+    <td>
+      <li *ngFor="let aliments of aliments">{{ aliments.age_introduction }}</li>
+    </td>
+    <th colspan="6">Catégorie</th>
+    <td>
+      <li *ngFor="let aliments of aliments">{{ aliments.id_categorie }}</li>
+    </td>
+    <th colspan="6">Saisons</th>
+
+    <td>
+      <li *ngFor="let aliments of aliments">{{ aliments.saisons }}</li>
+    </td>
+    <th colspan="6">Restrictions</th>
+
+    <td>
+      <li *ngFor="let aliments of aliments">{{ aliments.restrictions }}</li>
+    </td>
+  </tbody>
+</table>
